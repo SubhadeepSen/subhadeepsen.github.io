@@ -8,3 +8,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
 .w3-col img{opacity: 0.8; cursor: pointer}
 .w3-col img:hover{opacity: 1}
+
+html {
+    scroll-behavior: smooth;
+}
