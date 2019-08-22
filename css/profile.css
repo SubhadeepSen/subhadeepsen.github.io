@@ -1,13 +1,363 @@
-body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+/* ABOUT CSS */
 
-.w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
-.w3-third img:hover{opacity: 1}
+.about-background {
+    background-color: #262626;
+}
 
-.w3-half img{opacity: 0.8; cursor: pointer}
-.w3-half img:hover{opacity: 1}
+.name {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    color: #a0a0a0;
+}
 
-.w3-col img{opacity: 0.8; cursor: pointer}
-.w3-col img:hover{opacity: 1}
+.about-font {
+    color: #006666;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 26px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/* RESEARCH PAPER CSS */
+
+.research-papers-background {
+    background-color: #404040;
+}
+
+.research-paper-section-header {
+    font-family: "Arial Black", Helvetica, sans-serif;
+    color: #9a9a9a;
+    font-size: 20px;
+}
+
+.research-paper-header {
+    font-size: 18px;
+    margin-bottom: .5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #b5924f;
+}
+
+.justify-research-paper-body {
+    font-family: Gill Sans, sans-serif;
+    color: #a6a6a6;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.research-paper-link {
+    background-color: #d0d0d0;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: #444444;
+}
+
+.research-paper-link:hover {
+    background-color: teal;
+    color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+
+/* SKILLS CSS */
+
+.skills-background {
+    background-color: #595959;
+}
+
+.skills-section-header {
+    font-family: "Arial Black", Helvetica, sans-serif;
+    color: #afafaf;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.skills-section-header div {
+    margin-top: 50px;
+}
+
+.skills-text-font {
+    font-family: "Arial", Helvetica, sans-serif;
+    color: #bfb299;
+    font-size: 18px;
+    font-style: italic
+}
+
+.skills-icon-background {
+    background-color: #d0d0d0;
+    border-radius: 6px;
+}
+
+img.skills-icon-background:hover {
+    background-color: darkgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skills-hr-line {
+    border: 1px solid #545454;
+    margin: 0px;
+}
+
+
+/* WORK CSS */
+
+.work-background {
+    background-color: #737373;
+}
+
+.work-section-header {
+    font-family: "Arial Black", Helvetica, sans-serif;
+    color: #404040;
+    font-size: 20px;
+}
+
+.work-details-header {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.2;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #d2aa5e;
+    margin-bottom: 10px;
+}
+
+.work-details-body {
+    font-family: Gill Sans, sans-serif;
+    color: #bbbbbb;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.work-details-link {
+    background-color: #d0d0d0;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: #444444;
+}
+
+.work-details-link:hover {
+    background-color: #d2aa5e;
+    color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.work-header2-no-bottom-margin {
+    margin-bottom: 0px;
+}
+
+
+/* WORK EXPERIENCE CSS */
+
+.experience-background {
+    background-color: #8c8c8c;
+}
+
+.experience-section-header {
+    font-family: "Arial Black", Helvetica, sans-serif;
+    color: #444444;
+    font-size: 24px;
+}
+
+.experience-no-bottom-margin {
+    margin-bottom: 0px;
+}
+
+.experience-title {
+    font-family: "Arial Black", Helvetica, sans-serif;
+    color: #313131;
+    font-size: 18px;
+}
+
+.experience-body {
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-style: italic;
+    font-family: Gill Sans, sans-serif;
+    color: #223d67;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+@media (max-width:576px) {
+    .experience-body {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+
+/* EDUCATION CSS */
+
+.education-background {
+    background-color: #a6a6a6;
+}
+
+.education-section-header {
+    font-family: "Arial Black", Helvetica, sans-serif;
+    color: #525252;
+    font-size: 24px;
+}
+
+.education-details-text {
+    font-family: "Arial", Helvetica, sans-serif;
+    color: #4c4b4b;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.progress-bar-height {
+    height: 25px;
+}
+
+.progress-bar-font {
+    font-weight: bold;
+    color: wheat;
+    font-size: 14px;
+}
+
+.teal-color {
+    background-color: teal;
+}
+
+.education-details-align {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media (max-width:576px) {
+    .education-details-align {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+
+/* CONTACT CSS */
+
+.contact-background {
+    background-color: #bfbfbf;
+}
+
+.contact-section-header {
+    font-family: "Arial Black", Helvetica, sans-serif;
+    color: #525252;
+    font-size: 24px;
+}
+
+.contact-align {
+    margin-left: 35%;
+    text-align: left;
+}
+
+@media (max-width:662px) {
+    .contact-align {
+        margin-left: 12%;
+    }
+}
+
+.contact-details-text {
+    font-family: "Arial", Helvetica, sans-serif;
+    color: #585858;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+#gmail:hover {
+    color: #ca3737;
+}
+
+#linkedin:hover {
+    color: #0288d1;
+}
+
+#github:hover {
+    color: #262626;
+}
+
+#mobile:hover {
+    color: #009688;
+}
+
+
+/* GENERAL CSS */
+
+.margin-top-30px {
+    margin-top: 30px;
+}
+
+.margin-top-50px {
+    margin-top: 50px;
+}
+
+.padding-top-30px {
+    padding-top: 30px;
+}
+
+.margin-left-15px {
+    margin-left: 15px;
+}
+
+.padding-left-30px {
+    padding-left: 30px;
+}
+
+.padding-left-10px {
+    padding-left: 10px;
+}
+
+.margin-bottom-55px {
+    margin-bottom: 55px;
+}
+
+.padding-bottom-55px {
+    padding-bottom: 55px;
+}
+
+.hr-line {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 1px solid #b3b3b3;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+.margin-top-10px {
+    margin-top: 10px;
+}
+
+.margin-top-20px {
+    margin-top: 20px;
+}
+
+.margin-right-10px {
+    margin-right: 10px;
+}
 
 html {
     scroll-behavior: smooth;
